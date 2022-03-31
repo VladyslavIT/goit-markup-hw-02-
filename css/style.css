@@ -1,0 +1,213 @@
+/*основной цвет #212121
+цвет текста #757575
+цвет фокуса #2196F3
+фон кнопок #F5F4FA
+прозрачный в футере rgba(255, 255, 255, 0.6);
+белый #FFFFFF
+бекграунд #E5E5E5;
+*/
+:root {
+    --primary-text-color:#212121;
+    --text-color:#757575;
+    --color-focus:#2196F3;
+    --bg-btn:#F5F4FA;
+    --footer-text-color:rgba(255, 255, 255, 0.6);
+    --white:#FFFFFF;
+    --background-color:#E5E5E5;
+    --backgroung-footer:#2F303A;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color:var(--primary-text-color);
+    background-color:var(--white);
+}
+/* Лого */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.logo-white {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white);
+}   
+/* Навигация */
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    list-style: none;
+}
+.site-nav a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.site-nav .link.current {
+    color:var(--color-focus);
+}
+.auth-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    list-style: none;
+    color: var(--text-color);
+}
+.auth-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--color-focus);
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: var(--color-focus);
+}
+/* Главная */
+.general {
+    background-color: var(--backgroung-footer);
+}
+.main-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;  
+    color: var(--white);
+}
+.p {
+    text-align:center;
+    color: #FFFFFF;
+}
+.heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;  
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.list {
+    list-style: none;
+}
+.list-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+}
+.list-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color:var(--text-color);
+}
+
+.list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;  
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.list-pos {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
+    color: var(--text-color);
+    text-align: center;
+}
+.list-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--primary-text-color);
+} 
+.list-project-text {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--text-color); 
+}
+.team {
+    background-color:var(--bg-btn);
+}
+/* Кнопки */
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    background-color:var(--bg-btn);
+}
+.btn-all {
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--color-focus);
+    color: var(--white);
+}
+.general-btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    background-color: var(--color-focus);
+    color: var(--white);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.general-btn:hover,
+.general-btn:focus {
+    background-color:#188CE8;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--color-focus);
+    color: var(--white);
+}
+/* Футер */
+.footer{
+    background-color:var(--backgroung-footer);
+    color: var(--white);
+}
+.footer-adress {
+    font-style:normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.list-connect {
+    list-style: none;
+}
+/* Ссылки */
+.link-accent {
+    color: var(--footer-text-color);
+}
+.link-accent.connect {
+    text-decoration: none;
+} 
+.logo-accent {
+    color: var(--color-focus);
+}
+.connect:hover,
+.connect:focus {
+    color: var(--color-focus);
+}   
+.list-link {
+    text-decoration: none;
+}
